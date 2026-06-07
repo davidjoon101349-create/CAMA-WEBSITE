@@ -1,0 +1,44 @@
+<svg width="920" height="620" viewBox="0 0 920 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CAMA arts mission network illustration</title>
+  <desc id="desc">Abstract network artwork showing worship, arts, mission and alliance connected through warm lines.</desc>
+  <defs>
+    <linearGradient id="g1" x1="42" y1="604" x2="821" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2442"/>
+      <stop offset="1" stop-color="#283E5F"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="170" y1="472" x2="714" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5E6BC"/>
+      <stop offset="0.51" stop-color="#CDA356"/>
+      <stop offset="1" stop-color="#FFF5D0"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="918" height="618" rx="36" fill="url(#g1)" stroke="#E7C77E" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="459" cy="310" r="190" fill="#F6DE9D" opacity="0.08"/>
+  <path d="M146 415C279 234 405 471 514 284C623 97 731 263 785 180" stroke="url(#g2)" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+  <path d="M161 266C263 370 337 180 455 282C582 391 646 226 772 333" stroke="#9FB792" stroke-width="7" stroke-linecap="round" opacity="0.52"/>
+  <g filter="url(#blur)" opacity="0.35">
+    <circle cx="459" cy="310" r="82" fill="#FCE7A8"/>
+  </g>
+  <g>
+    <circle cx="459" cy="310" r="72" fill="#102540" stroke="#EBD08D" stroke-width="3"/>
+    <path d="M459 259V361" stroke="#F8E7B6" stroke-width="7" stroke-linecap="round"/>
+    <path d="M428 296H490" stroke="#F8E7B6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F8E7B6" text-anchor="middle">
+    <circle cx="146" cy="415" r="50" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="146" y="422">Arts</text>
+    <circle cx="785" cy="180" r="50" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="785" y="187">Mission</text>
+    <circle cx="161" cy="266" r="52" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="161" y="273">Worship</text>
+    <circle cx="772" cy="333" r="54" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="772" y="340">Alliance</text>
+    <circle cx="302" cy="158" r="40" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="302" y="165" font-size="16">Next</text>
+    <circle cx="620" cy="480" r="44" fill="#142A47" stroke="#D7B66A" stroke-width="2"/>
+    <text x="620" y="487" font-size="16">Field</text>
+  </g>
+</svg>
