@@ -359,7 +359,7 @@ blockquote cite { display: block; margin-top: 6px; color: #aebbd0; font-style: n
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
 .footer-inner p { margin: 0; color: #9eabbd; }
 .footer-brand { display: inline-flex; align-items: center; max-width: 100%; }
-.footer-logo-shell { display: inline-flex; align-items: center; justify-content: center; padding: 12px 16px; border-radius: 20px; background: rgba(255, 249, 236, 0.92); border: 1px solid rgba(207,168,90,.22); box-shadow: 0 16px 36px rgba(0,0,0,.18); }
+.footer-logo-shell { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 18px; background: rgba(255, 255, 255, 0.94); border: 1px solid rgba(255,255,255,.18); box-shadow: 0 14px 30px rgba(0,0,0,.16); }
 .footer-logo { display: block; width: min(360px, 74vw); height: auto; }
 .top-button { position: fixed; right: 22px; bottom: 22px; width: 46px; height: 46px; border: 0; border-radius: 50%; background: var(--gold-500); color: var(--navy-950); font-weight: 950; cursor: pointer; box-shadow: 0 15px 35px rgba(0,0,0,.2); opacity: 0; visibility: hidden; transform: translateY(10px); transition: .25s; }
 .top-button.show { opacity: 1; visibility: visible; transform: translateY(0); }
