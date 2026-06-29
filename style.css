@@ -143,6 +143,15 @@ h3 { color: var(--navy-800); font-size: 1.25rem; line-height: 1.32; margin-botto
 
 .two-col { display: grid; grid-template-columns: 0.82fr 1.18fr; gap: 70px; align-items: start; }
 .top-align { align-items: start; }
+.about-title {
+  margin: 0;
+  font-size: clamp(3.2rem, 5vw, 5.4rem);
+  line-height: .92;
+  letter-spacing: -.065em;
+  color: var(--navy-900);
+  white-space: nowrap;
+}
+.ahava-section { background: linear-gradient(180deg, #fff 0%, #fff9ec 100%); }
 .section-heading p:not(.eyebrow), .centered-heading p { color: var(--muted); font-size: 1.05rem; }
 .rich-text { font-size: 1.12rem; color: #3d475a; }
 .rich-text strong { color: var(--navy-800); }
@@ -401,9 +410,18 @@ blockquote cite { display: block; margin-top: 6px; color: #aebbd0; font-style: n
   .hero-copy { padding: 24px; border-radius: 24px; }
   .hero h1 { font-size: clamp(2.05rem, 9vw, 3.15rem); line-height: 1.12; letter-spacing: -0.045em; }
   .hero .lead { font-size: .98rem; }
+  .hero-actions { display: grid; grid-template-columns: 1fr; }
+  .hero-actions .btn { width: 100%; text-align: center; }
   .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .about-title { font-size: clamp(2.25rem, 12vw, 3.2rem); line-height: .96; }
   .cards-grid, .ministry-grid, .partners-grid, .event-gallery, .archive-grid { grid-template-columns: 1fr; }
   .wide-card, .gallery-wide, .archive-card-featured { grid-column: auto; }
+  .archive-card:not(.archive-card-featured) img {
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+    background: #f5ead5;
+  }
   .archive-cta { width: 100%; text-align: center; padding: 0 18px; font-size: .94rem; }
   .intro-band-inner { min-height: auto; padding: 22px 0; flex-direction: column; gap: 8px; }
   .intro-band span { display: none; }
