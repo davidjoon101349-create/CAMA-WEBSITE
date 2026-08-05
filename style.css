@@ -359,10 +359,15 @@ blockquote cite { display: block; margin-top: 6px; color: #aebbd0; font-style: n
 .host-link::after { content: "↗"; margin-left: 8px; }
 .host-label { display: inline-flex; align-items: center; padding: 7px 12px; border-radius: 999px; color: var(--navy-950); background: var(--gold-300); font-weight: 950; font-size: .82rem; letter-spacing: .08em; }
 .partners-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-.partners-grid span, .partners-grid a { display: block; min-height: 112px; padding: 24px 20px; border-radius: 24px; background: #fff; border: 1px solid var(--line); box-shadow: 0 14px 40px rgba(4,18,38,.06); font-weight: 950; color: var(--navy-800); }
+.partners-grid > span, .partners-grid > a { display: block; min-height: 112px; padding: 24px 20px; border-radius: 24px; background: #fff; border: 1px solid var(--line); box-shadow: 0 14px 40px rgba(4,18,38,.06); font-weight: 950; color: var(--navy-800); }
 .partners-grid small { display: block; margin-top: 6px; color: var(--muted); font-weight: 700; }
-.partners-grid a { transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
-.partners-grid a:hover { transform: translateY(-3px); border-color: rgba(207,168,90,.48); box-shadow: 0 20px 50px rgba(4,18,38,.1); }
+.partners-grid > a { transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; }
+.partners-grid > a:hover { transform: translateY(-3px); border-color: rgba(207,168,90,.48); box-shadow: 0 20px 50px rgba(4,18,38,.1); }
+.partner-card-dmz { border-color: rgba(52, 119, 78, .26) !important; background: linear-gradient(135deg, #f6fbf4, #fff) !important; }
+.partner-card-dmz strong { display: block; }
+.partner-photo-link { display: inline-flex; align-items: center; margin-top: 15px; padding: 8px 12px; border-radius: 999px; background: var(--navy-800); color: #fff8e6; font-size: .88rem; font-weight: 900; transition: transform .2s ease, background .2s ease; }
+.partner-photo-link::after { content: "↗"; margin-left: 7px; }
+.partner-photo-link:hover { transform: translateY(-2px); background: #174a31; }
 
 
 .site-footer { background: #061020; color: #dce5f3; padding: 34px 0; }
