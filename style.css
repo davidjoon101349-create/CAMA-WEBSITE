@@ -300,6 +300,7 @@ blockquote cite { display: block; margin-top: 6px; color: #aebbd0; font-style: n
 }
 .archive-card:hover { transform: translateY(-4px); box-shadow: 0 26px 65px rgba(4,18,38,.13); }
 .archive-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.archive-card-one-day img { object-fit: contain; object-position: center; background: #fff; }
 .archive-card > div { padding: 24px; }
 .archive-card h3 { font-size: 1.38rem; margin-bottom: 10px; }
 .archive-card p { color: var(--muted); margin-bottom: 14px; }
