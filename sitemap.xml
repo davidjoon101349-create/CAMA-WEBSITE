@@ -12,4 +12,8 @@
     <loc>https://cama-website.vercel.app/organization.html</loc>
     <priority>0.8</priority>
   </url>
+  <url><loc>https://cama-website.vercel.app/about.html</loc><priority>0.9</priority></url>
+  <url><loc>https://cama-website.vercel.app/ministries.html</loc><priority>0.9</priority></url>
+  <url><loc>https://cama-website.vercel.app/archive.html</loc><priority>0.9</priority></url>
+  <url><loc>https://cama-website.vercel.app/partners.html</loc><priority>0.8</priority></url>
 </urlset>

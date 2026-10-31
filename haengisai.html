@@ -17,24 +17,25 @@
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
 
-  <header class="site-header" id="top">
+    <header class="site-header" id="top">
     <nav class="nav container" aria-label="주요 메뉴">
-      <a class="brand" href="index.html" aria-label="아하바프레이즈선교연합 홈"><img class="brand-logo" src="assets/ahava-praise-logo.png" alt="아하바프레이즈선교연합 로고" /></a>
+      <a class="brand" href="index.html" aria-label="아하바프레이즈선교연합 홈"><img class="brand-logo" src="assets/ahava-praise-logo.png" alt="AHAVA PRAISE 아하바프레이즈선교연합" /></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span><span class="sr-only">메뉴 열기</span></button>
       <div class="nav-menu" id="nav-menu">
-        <a href="index.html#about">소개</a><a href="index.html#vision">비전</a><a href="index.html#ministry">사역</a><a href="index.html#history">연혁</a><a href="index.html#event-archive">행사 아카이브</a><a href="index.html#partners">협력단체</a><a href="organization.html">조직 및 사역 구조</a>
+        <div class="nav-dropdown"><a href="about.html" class="dropdown-trigger">선교연합 소개</a><div class="dropdown-menu"><a href="about.html#about">소개</a><a href="about.html#vision">비전과 사명</a><a href="about.html#history">걸어온 길</a><a href="organization.html">조직 및 사역 구조</a></div></div>
+        <a href="ministries.html">사역 안내</a><a href="archive.html">행사와 소식</a><a href="partners.html">협력 네트워크</a><a href="organization.html" class="nav-organization">조직도</a>
       </div>
     </nav>
   </header>
 
-  <main id="main">
+  <main id="main"><div class="container detail-breadcrumb"><a href="index.html">홈</a> / <a href="partners.html">협력 네트워크</a></div>
     <section class="detail-hero">
       <img src="assets/partners/haengisai/haengisai-agreement-site.jpg" alt="행이사이 그리스도의교회와의 선교협력 협약 현장" />
       <div class="detail-hero-overlay"><div class="container"><p class="eyebrow">Partner Network</p><h1>행이사이<br />그리스도의교회</h1><p class="lead">아하바프레이즈선교회와 함께하는 선교협력 현장</p></div></div>
     </section>
 
     <section class="section-pad"><div class="container detail-grid">
-      <aside class="detail-info reveal"><span class="event-badge">협력단체</span><ul class="event-meta detail-meta"><li><strong>단체명</strong><span>행이사이 그리스도의교회</span></li><li><strong>협력</strong><span>국내외 선교사역 · 선교 네트워크</span></li><li><strong>기록</strong><span>선교협력 협약 및 사역 현장</span></li></ul><a class="btn btn-secondary" href="index.html#partners">협력단체로 돌아가기</a></aside>
+      <aside class="detail-info reveal"><span class="event-badge">협력단체</span><ul class="event-meta detail-meta"><li><strong>단체명</strong><span>행이사이 그리스도의교회</span></li><li><strong>협력</strong><span>국내외 선교사역 · 선교 네트워크</span></li><li><strong>기록</strong><span>선교협력 협약 및 사역 현장</span></li></ul><a class="btn btn-secondary" href="partners.html">협력단체로 돌아가기</a></aside>
       <div class="rich-text reveal delay-1"><p><strong>행이사이 그리스도의교회</strong>와 아하바프레이즈선교회는 상호 신뢰와 협력을 바탕으로 선교사역을 함께 이어가고 있습니다.</p><p>선교협력 협약과 예배·기도 현장을 통해 복음과 섬김의 연결을 넓혀갑니다.</p></div>
     </div></section>
 
@@ -47,7 +48,11 @@
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><div class="footer-brand"><span class="footer-logo-shell"><img class="footer-logo" src="assets/ahava-praise-logo.png" alt="아하바프레이즈선교연합 로고" /></span></div><p>© <span id="year"></span> 아하바프레이즈선교연합. All rights reserved.</p></div></footer>
+    <footer class="site-footer"><div class="container footer-inner">
+    <div class="footer-brand"><img class="footer-logo" src="assets/ahava-praise-logo.png" alt="아하바프레이즈선교연합 로고" /><p>복음을 예술로, 믿음을 세대로</p></div>
+    <div class="footer-links"><a href="about.html">선교연합 소개</a><a href="ministries.html">사역 안내</a><a href="archive.html">행사와 소식</a><a href="partners.html">협력 네트워크</a><a href="organization.html">조직 및 사역 구조</a></div>
+    <div class="footer-meta"><p>행정·주최·주관 아하바프레이즈선교회<br />C&amp;MA 얼라이언스한국총회</p><p>© <span id="year"></span> AHAVA PRAISE MISSION ALLIANCE.</p></div>
+  </div></footer>
   <button class="top-button" type="button" aria-label="맨 위로 이동">↑</button><script src="script.js"></script>
 </body>
 </html>
